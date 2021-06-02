@@ -8,7 +8,7 @@ namespace Assets.Scripts
     {
         public Transform target;
 
-        public void Update()
+        public void Update ()
         {
             transform.LookAt(target);
         }
